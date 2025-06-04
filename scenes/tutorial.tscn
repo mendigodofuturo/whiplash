@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3 uid="uid://dqe04jnvkg05a"]
+
+[ext_resource type="PackedScene" uid="uid://cmtp56iqpno2d" path="res://scenes/characters/player.tscn" id="1_o5qli"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_sgp6g"]
+size = Vector3(20, 0.25, 20)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_o5qli"]
+size = Vector3(20, 0.5, 20)
+
+[node name="Tutorial" type="StaticBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_sgp6g")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_o5qli")
+
+[node name="Player" parent="." instance=ExtResource("1_o5qli")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.749342, 0)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.895174, -0.380414, -0.232269, -0.0105345, -0.50291, 0.864275, -0.445592, 0.776123, 0.446184, 0, 14, 15.92)
+light_energy = 3.909
+sky_mode = 1
+
+[node name="DirectionalLight3D2" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.146074, 0.83073, -0.537169, 0.271092, 0.555822, 0.785857, 0.951405, -0.0308288, -0.306396, 0, 14, -25)
+light_energy = 3.909
+sky_mode = 1
