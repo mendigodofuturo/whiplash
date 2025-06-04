@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Whiplash"
-run/main_scene="uid://dqe04jnvkg05a"
+run/main_scene="uid://cs8bx1hhahpcc"
 config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
 
@@ -101,3 +101,4 @@ jump={
 [rendering]
 
 renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true

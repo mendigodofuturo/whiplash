@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bxb5gkm80t7xe"
 path.s3tc="res://.godot/imported/tommy_Image_0.png-8e0b7d75362f0a0d9a884de9b4354f65.s3tc.ctex"
+path.etc2="res://.godot/imported/tommy_Image_0.png-8e0b7d75362f0a0d9a884de9b4354f65.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/models/player/tommy_Image_0.png"
-dest_files=["res://.godot/imported/tommy_Image_0.png-8e0b7d75362f0a0d9a884de9b4354f65.s3tc.ctex"]
+dest_files=["res://.godot/imported/tommy_Image_0.png-8e0b7d75362f0a0d9a884de9b4354f65.s3tc.ctex", "res://.godot/imported/tommy_Image_0.png-8e0b7d75362f0a0d9a884de9b4354f65.etc2.ctex"]
 
 [params]
 
